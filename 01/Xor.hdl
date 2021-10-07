@@ -17,6 +17,4 @@ CHIP Xor {
     Or(a=a, b=b, out=oab);
     Nand(a=a, b=b, out=nab);
     And(a=oab, b=nab, out=out);
-
-
 }
